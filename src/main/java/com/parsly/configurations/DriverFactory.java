@@ -38,13 +38,13 @@ public class DriverFactory {
             prefs.put( "profile.password_manager_enabled", false );
             options.setExperimentalOption( "prefs", prefs );
             driver = new ChromeDriver( options );
-            driver.manage().timeouts().implicitlyWait( Duration.ofSeconds( 60 ) );
+            driver.manage().timeouts().implicitlyWait( Duration.ofSeconds( 10 ) );
         }
         return driver;
     }
 
     public static WebDriverWait getWaitDriver() {
-        waitDriver = new WebDriverWait( driver, Duration.ofSeconds( 60 ) );
+        waitDriver = new WebDriverWait( driver, Duration.ofSeconds( 10 ) );
         return waitDriver;
     }
 

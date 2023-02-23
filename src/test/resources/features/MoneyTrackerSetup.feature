@@ -34,11 +34,11 @@ Feature: Money Tracker Setup
     And validate the account data
 
   @TransactionAccount
-  Scenario: Should Make a Expense Transaction
-    And select base currency "BRL"
+  Scenario Outline: Should Make a Expense Transaction
+    And select base currency "<CURENCY>"
     And create account with data
-      | NAME         | GROUP        | BALANCE |
-      | Account Name | Bank Account | 100     |
+      | NAME   | GROUP   | BALANCE   |
+      | <NAME> | <GROUP> | <BALANCE> |
     And validates that the account was created
     And validate the account data
     And navigate to Dashboard
@@ -47,3 +47,10 @@ Feature: Money Tracker Setup
     And the calculation done
     And navigate to menu "Transactions"
     And validate transaction
+    And validate if total match with transaction
+
+    Examples:
+      | CURENCY | NAME         | GROUP        | BALANCE |
+      | USD     | Account Name | Bank Account | 20000   |
+      | USD     | Account Name | Bank Account | 100     |
+      | BRL     | Account Name | Bank Account | 100     |

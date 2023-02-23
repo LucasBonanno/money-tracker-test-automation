@@ -16,7 +16,7 @@ To execute this application is necessary:
 5.  money-tracker Project
 
 ### Installation guide
-- Clone the project from repo to have access. (REPO_HERE)
+- Clone the project from repo to have access: https://github.com/LucasBonanno/money-tracker-test-automation
 
 
 - Install Java JDK 11, according to your operating system:  https://www.oracle.com/pt/java/technologies/javase/jdk11-archive-downloads.html
@@ -91,17 +91,9 @@ This runner class: **src/test/java/com/parsly/main**
 
 All Tests Cases: **src/test/resources/features**
 
-### Plugins and Drivers
-
-| Plugin | Link |
-| ------ | ------ |
-| Cucumber Eclipse | https://marketplace.eclipse.org/content/cucumber-eclipse-plugin |
-| Cucumber Intellij | https://plugins.jetbrains.com/plugin/7212-cucumber-for-java|
-
-
 ### Note:
 
-The evidence can be found in the folder named: **evidences**
+After running the tests. The evidences can be found in the folder named: **evidences**
 
 ### Contact:
 

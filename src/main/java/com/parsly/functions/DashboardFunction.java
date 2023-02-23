@@ -4,10 +4,15 @@ import com.parsly.configurations.SeleniumInteraction;
 import com.parsly.pages.CommonsPage;
 import com.parsly.pages.DashboardPage;
 import com.parsly.pages.HomePage;
+import lombok.Getter;
 import org.junit.Assert;
 
 public class DashboardFunction extends SeleniumInteraction {
 
+    @Getter
+    private static String transactionType = null;
+    @Getter
+    private static int value = 0;
     private static int result = 0;
     HomePage homePage = new HomePage();
     CommonsPage commonsPage = new CommonsPage();
@@ -21,6 +26,8 @@ public class DashboardFunction extends SeleniumInteraction {
     }
 
     public void makeTransaction( String transactionType, int value ) {
+        this.transactionType = transactionType;
+        this.value = value;
         click( dashboardPage.transactionTypeForm( transactionType ) );
         write( dashboardPage.transactionFormValue, String.valueOf( value ) );
         click( dashboardPage.buttonForm );
@@ -44,7 +51,7 @@ public class DashboardFunction extends SeleniumInteraction {
 
     public void validateCalculation() {
         Assert.assertTrue( "AUTOMATION MSG: [validates if balanceAccount is correct]",
-                getText( commonsPage.accountBalanceList( "1" ) ).contains( String.valueOf( result ) ) );
+                getText( commonsPage.accountBalanceList( "1" ) ).replace( ".", "" ).contains( String.valueOf( result ) ) );
 
     }
 }

@@ -5,31 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe927d18-8b1f-4512-8879-021790b38b27" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/SeleniumInteraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parsly/functions/CommonsFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parsly/functions/DashboardFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parsly/functions/HomeFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parsly/pages/CommonsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parsly/pages/DashboardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/parsly/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/parsly/main/CucumberExecuteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/parsly/setup/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/parsly/steps/CommonsStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/parsly/steps/DashboardStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/parsly/steps/MoneyTrackerStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/MoneyTrackerSetup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/SeleniumInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/SeleniumInteraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/functions/CommonsFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/functions/CommonsFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/functions/DashboardFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/functions/DashboardFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/pages/CommonsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/pages/CommonsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parsly/main/CucumberExecuteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parsly/main/CucumberExecuteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parsly/steps/CommonsStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parsly/steps/CommonsStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MoneyTrackerSetup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MoneyTrackerSetup.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/lucas/git/money-tracker-test-automation"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/git/money-tracker-test-automation&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\lucas\git\money-tracker-test-automation" />
@@ -82,6 +67,25 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CucumberExecuteTest">
+    <configuration name="Feature: MoneyTrackerSetup" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MoneyTrackerSetup.feature" />
+      <option name="GLUE" value="com.parsly.setup com.parsly.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="money-tracker-test-automation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: MoneyTrackerSetup" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Should Create Accounts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MoneyTrackerSetup.feature" />
@@ -91,6 +95,26 @@
       <option name="NAME_FILTER" value="^Should Create Accounts$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Should Create Accounts$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: Should Create Accounts" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Should Make a Expense Transaction" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/MoneyTrackerSetup.feature" />
+      <option name="GLUE" value="com.parsly.setup com.parsly.steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="money-tracker-test-automation" />
+      <option name="NAME_FILTER" value="^Should Make a Expense Transaction$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Should Make a Expense Transaction$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Should Make a Expense Transaction" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -120,6 +144,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CucumberExecuteTest" />
+        <item itemvalue="Cucumber Java.Scenario: Should Make a Expense Transaction" />
+        <item itemvalue="Cucumber Java.Feature: MoneyTrackerSetup" />
         <item itemvalue="Cucumber Java.Scenario: Should Create Accounts" />
       </list>
     </recent_temporary>
@@ -138,20 +164,45 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/parsly/configurations/SeleniumInteraction.java</url>
           <line>24</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/parsly/functions/CommonsFunction.java</url>
-          <line>18</line>
+          <line>19</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/parsly/steps/CommonsStep.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/parsly/steps/CommonsStep.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="24" />
+          <line>21</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parsly/functions/CommonsFunction.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parsly/functions/DashboardFunction.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parsly/functions/HomeFunction.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/parsly/functions/CommonsFunction.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

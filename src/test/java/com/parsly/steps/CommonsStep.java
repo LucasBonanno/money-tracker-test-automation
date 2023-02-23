@@ -16,4 +16,9 @@ public class CommonsStep {
     public void navigateToMenu( String menuName) {
         commonsFunction.navigateToMenu(menuName);
     }
+
+    @And( "validate if total match with transaction" )
+    public void validateIfTotalMatchWithTransaction() {
+        commonsFunction.validateTotalMatchWithTransaction();
+    }
 }

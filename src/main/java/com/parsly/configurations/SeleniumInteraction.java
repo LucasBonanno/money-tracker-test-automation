@@ -28,7 +28,8 @@ public class SeleniumInteraction {
     }
 
     public void click( By by ) {
-        getDriver().findElement( by ).click();
+        getWaitDriver().until(
+                ExpectedConditions.elementToBeClickable( getDriver().findElement( by ) ) ).click();
     }
 
     public String getText( By by ) {
@@ -49,7 +50,7 @@ public class SeleniumInteraction {
         getWaitDriver().until( ExpectedConditions.visibilityOfElementLocated( by ) );
     }
 
-    public void scrollIntoView(  ) {
+    public void scrollIntoView() {
         JavascriptExecutor js = ( JavascriptExecutor ) getDriver();
 //        js.executeScript( "arguments[0].scrollIntoView(true);", getDriver().findElement( by ) );
         js.executeScript( "window.scrollBy(0,document.body.scrollHeight)" );
