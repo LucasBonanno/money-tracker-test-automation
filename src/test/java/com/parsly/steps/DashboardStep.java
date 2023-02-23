@@ -8,7 +8,6 @@ import io.cucumber.java.en.When;
 
 public class DashboardStep {
 
-    HomeFunction homeFunction = new HomeFunction();
     DashboardFunction dashboardFunction = new DashboardFunction();
     @And( "navigate to Dashboard" )
     public void navigateToDashboard( ) {

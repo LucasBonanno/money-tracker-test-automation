@@ -7,14 +7,11 @@
     <list default="true" id="fe927d18-8b1f-4512-8879-021790b38b27" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/SeleniumInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/configurations/SeleniumInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/functions/CommonsFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/functions/CommonsFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/functions/DashboardFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/functions/DashboardFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/parsly/pages/CommonsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/parsly/pages/CommonsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parsly/main/CucumberExecuteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parsly/main/CucumberExecuteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parsly/steps/CommonsStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parsly/steps/CommonsStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/MoneyTrackerSetup.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/MoneyTrackerSetup.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parsly/steps/DashboardStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parsly/steps/DashboardStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parsly/steps/MoneyTrackerStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parsly/steps/MoneyTrackerStep.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,11 +161,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/parsly/configurations/SeleniumInteraction.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/parsly/functions/CommonsFunction.java</url>
           <line>19</line>

@@ -95,6 +95,8 @@ All Tests Cases: **src/test/resources/features**
 
 After running the tests. The evidences can be found in the folder named: **evidences**
 
+One of the Expense Transaction tests is deliberately showing an error in the tested system. So this test fails because it finds a bug.
+
 ### Contact:
 
 Any question? Please let me know at: **lucas.bonani@gmail.com**

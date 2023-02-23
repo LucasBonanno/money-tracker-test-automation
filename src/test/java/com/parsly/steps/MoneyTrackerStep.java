@@ -9,9 +9,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class MoneyTrackerStep {
-
     HomeFunction homeFunction = new HomeFunction();
-    CommonsFunction commonsFunction = new CommonsFunction();
+
     @Given("Given that the user has access to the system")
     public void userVerifiesVAPageIsDisplayed() {
         homeFunction.validateHomePageLoaded();

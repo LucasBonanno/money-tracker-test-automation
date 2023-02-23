@@ -5,9 +5,7 @@ import org.openqa.selenium.By;
 public class CommonsPage {
 
     public final By logo = By.xpath( "//*[@class='logo']" );
-
     public final By listboxDropDown = By.xpath(" //label[contains(text(),'Group')]//following-sibling::div");
-//    public final By listboxDropDown = By.xpath( "//div[contains(@class,'ui selection dropdown')]" );
 
     public By button( String text ) {
         return By.xpath( "//button[contains(text(),'" + text + "')]" );
